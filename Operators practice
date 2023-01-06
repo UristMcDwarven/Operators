@@ -1,0 +1,29 @@
+import random
+print("Numbers that aren't evenly divisible by 5")
+counter = 0
+while counter < 10:
+    #get a random number
+    number = random.randint(1,999)
+    if int(number/5) == number / 5:
+	#if its evenly divisible by 5, break
+        break
+	#otherwise print it and keep going
+    print(number)
+    counter += 1
+print("Loop is done")
+
+#part 1 start a counter which does not go up, make it go up
+counter = 0
+while counter < 10:
+    print(counter)
+    counter += 1 #makes counter go up
+
+#part 2 import random as variable named number
+import random
+number = random.randint(1,99)
+print(number)
+
+#create a reason to break
+if int(number/5) == number / 5:
+	#if its evenly divisible by 5, break
+        break
